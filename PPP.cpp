@@ -12,16 +12,13 @@ using namespace std::chrono;
 Brian Shin + Samuel Adams
 COMP 3270 - Yilmaz, Levent
 Programming Assignment: MSCS Problem
-
 Compile and run with C++ (mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0)
 IDE used: Visual Studio Code
-
 References used:
 c++ for vector: https://www.cplusplus.com/reference/vector/vector/
 reuse of code from COMP 2710 for reading/writing files
 stack overflow for delimiting commas in an input file: https://stackoverflow.com/questions/40945378/reading-a-comma-separated-file-into-an-integer-array
 stack overflow for measuring execution time: https://www.geeksforgeeks.org/measure-execution-time-function-cpp/
-
 Certification statement: I certify that I wrote the code I am submitting. I did not copy whole or parts of it from another student or have another person write the code for me.
 Any code I am reusing in my program is clearly marked as such with its source clearly identified in comments.
 **/
@@ -65,7 +62,7 @@ int main() {
     }
 
     // testing runtime execution using system clock
-    //changed this to double idk why it was an int matrix tf
+    
     vector<vector<double>> timeMatrix;
 
     int N = 100;
